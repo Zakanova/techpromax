@@ -1,0 +1,15 @@
+# Hide all implementation details
+*.sh
+*.py
+*.log
+*.txt
+build/
+scripts/
+downloads/
+node_modules/
+__pycache__/
+.env
+*.key
+*.pem
+.DS_Store
+Thumbs.db
