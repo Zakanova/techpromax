@@ -1,11 +1,10 @@
-# Hide all implementation details
+# Block scripts and build tools (backend/development)
 *.sh
 *.py
 *.log
 *.txt
 build/
 scripts/
-downloads/
 node_modules/
 __pycache__/
 .env
@@ -13,3 +12,11 @@ __pycache__/
 *.pem
 .DS_Store
 Thumbs.db
+
+# BUT allow website files (frontend/customer-facing)
+!index.html
+!downloads/
+!downloads/index.html
+!assets/
+!css/
+!js/
